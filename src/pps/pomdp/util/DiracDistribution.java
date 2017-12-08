@@ -79,7 +79,7 @@ public class DiracDistribution<T> implements Distribution<T>{
 
     /**
      * Returns the support of the probability distribution, i.e., a set of all the items {code item} on which
-     * getProbability(item) > 0
+     * getProbability(item) &gt; 0
      *
      * @return the set of items.
      */
@@ -91,7 +91,7 @@ public class DiracDistribution<T> implements Distribution<T>{
     }
 
     /**
-     * Returns whether an {code item} has positive probability, i.e., getProbabilit(item)>0;
+     * Returns whether an {code item} has positive probability, i.e., getProbabilit(item) &gt; 0;
      *
      * @param item the item to check for presence in the support.
      * @return a Boolean value, {code True} when {code item} is in the support and {code False} otherwise.
