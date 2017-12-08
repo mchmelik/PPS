@@ -30,4 +30,11 @@ public interface Distribution<T> {
      * @return a Boolean value, {code True} when {code item} is in the support and {code False} otherwise.
      */
     public Boolean isInSupport(T item);
+
+
+    /**
+     * Sample an element from the distribution.
+     * @return {code item} sampled from the distribution
+     */
+    public T sampleItem();
 }
