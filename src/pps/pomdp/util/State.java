@@ -90,9 +90,7 @@ public class State<T> extends Object{
      */
     @Override
     public String toString() {
-        return "State{" +
-                "name='" + name + '\'' +
-                '}';
+        return name;
     }
 
     /**
